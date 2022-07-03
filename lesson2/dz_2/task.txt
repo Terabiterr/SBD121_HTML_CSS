@@ -1,0 +1,14 @@
+1.	Реализовать сайт визитку. Создать 3 страницы
+Картинки можно не использовать, но в header и других блочных тегах реализовать background
+Текст можно использовать Lorem, но если будете использовать реальный текст и придумаете идею какого-то бизнеса будет плюсом. Картинки тоже в плюсе.
+1 main index.html
+2 contact contact.html
+3 about about.html
+
+<body>
+    <header></header>
+    <menu></menu>
+    <nav></nav>
+    <article></article>
+    <footer></footer>
+</body>

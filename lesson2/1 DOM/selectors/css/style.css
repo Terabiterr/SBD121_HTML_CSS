@@ -1,0 +1,53 @@
+/*Comments*/
+body {
+    background-color: antiquewhite; /*Задний фон*/
+}
+
+#headerId {
+    margin: 0; /*Отступы по left right top bottom*/
+    width: 100%; /* ширина в % */
+    height: 50px; /*Высота в пикселях*/
+    background-color: rgb(82, 90, 105); /*Задний фон*/
+    color: white; /*Цвет текста*/
+    text-align: center; /*Текст по центру*/
+    border: 3px dotted rgb(10, 34, 46); /* 3 пикселя рамка header dotted = пунктир rgb = цвет */
+    padding-top: 25px; /* отступ внутри TOP */
+}
+#headerId > div > span {
+    margin-left: 10px; /* отступ слева */
+    margin-right: 10px; /* отступ справа */
+    /* набор стандартных шрифтов для текста */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* размер шрифта */
+    font-size: 18px;
+}
+#headerId > div > span > a {
+    text-decoration: none; /* убрать подчеркивание ссылки */
+    color: white; /* цвет текста тега a */
+}
+
+#artOneId {
+    margin-bottom: 15px; /* отступ вниз */
+}
+
+#artOneId > h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+
+#artOneId > b {
+    font-size: 12px;
+    color: rgb(143, 131, 127);
+}
+
+.footerClass {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(82, 90, 105);
+    color: white;
+    /* выровнять текст по центру */
+    text-align: center;
+    border: 3px solid rgb(10, 34, 46);
+    padding-top: 25px;
+}
