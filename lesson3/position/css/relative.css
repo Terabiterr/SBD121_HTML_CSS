@@ -1,0 +1,22 @@
+.block1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.block2 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    left: 150px;
+}
+.block3 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(3, 244, 39);
+    margin: 10px;
+}

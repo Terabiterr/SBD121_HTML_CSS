@@ -1,0 +1,12 @@
+.testBlockTextClass {
+    width: 250px;
+    height: 250px;
+    background-color: cadetblue;
+    text-align: center;
+    text-transform:lowercase;
+}
+span {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}

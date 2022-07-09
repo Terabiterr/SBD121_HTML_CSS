@@ -1,0 +1,12 @@
+/*Псевдоэлемент ::*/
+p::first-line {
+    color: blue;
+    text-transform: uppercase;
+}
+/*Псевдокласс :*/
+p:hover {
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}

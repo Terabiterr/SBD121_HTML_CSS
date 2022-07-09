@@ -1,0 +1,42 @@
+#block1, #block2, #block3, #block4, #block5 {
+    background-color:cadetblue;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid green;
+    height: 250px;
+    width: 250px;
+}
+.insideBlock1 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    padding: 50px;
+    margin: 10px;
+}
+.insideBlock2 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 25px;
+}
+.insideBlock3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+}
+.insideBlock4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 208, 43);
+    padding: 10px;
+    margin-left: auto; /*браузер автоматически выставит margin (Так как элемент блочный, о он будет по центру)*/
+    margin-right: auto;
+    margin-top: 25%; /*Блок по центру текущего блока*/
+}
+.insideBlock5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 95, 43);
+    margin: -50px;
+}
