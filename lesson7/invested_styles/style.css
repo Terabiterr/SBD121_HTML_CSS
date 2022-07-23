@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: rgba(78, 161, 235, 0.535);
+  color: green;
+  /*Добавить вложенный стиль*/
+}
+.header .headerLogo {
+  color: red;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}

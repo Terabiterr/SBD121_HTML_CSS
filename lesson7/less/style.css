@@ -1,0 +1,16 @@
+/*Переменные less*/
+#block1 {
+  height: 250px;
+  width: 250px;
+  background-color: green;
+}
+#block2 {
+  height: 250px;
+  width: 250px;
+  background-color: grey;
+}
+#block3 {
+  height: 250px;
+  width: 250px;
+  background-color: red;
+}

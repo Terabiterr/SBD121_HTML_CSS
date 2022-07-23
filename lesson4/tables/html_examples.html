@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables examples</title>
+    <style>
+        table{
+          margin: 50px 0;
+          text-align: left;
+          border-collapse: separate;
+          border: 1px solid #ddd;
+          border-spacing: 10px;
+          border-radius: 3px;
+          background: #fdfdfd;
+          font-size: 14px;
+          width: auto;
+        }
+        td,th{
+          border: 1px solid #ddd;
+          padding: 5px;
+          border-radius: 3px;
+        }
+        th{
+          background: #E4E4E4;
+        }
+        caption{
+          font-style: italic;
+          text-align: right;
+          color: #547901;
+        }
+      </style>
+</head>
+<body>
+    <hr style="height: 10px; background-color: #547901;">
+    <table>
+        <caption>Пример таблицы с названием</caption>
+        <tr>
+          <td>Строка1 Ячейка1</td>
+          <td>Строка1 Ячейка2</td>
+          <td>Строка1 Ячейка3</td>
+          <td>Строка1 Ячейка4</td>
+        </tr>
+        <tr>
+          <td>Строка2 Ячейка1</td>
+          <td>Строка2 Ячейка2</td>
+          <td>Строка2 Ячейка3</td>
+          <td>Строка2 Ячейка4</td>
+        </tr>
+        <tr>
+          <td>Строка3 Ячейка1</td>
+          <td>Строка3 Ячейка2</td>
+          <td>Строка3 Ячейка3</td>
+          <td>Строка3 Ячейка4</td>
+        </tr>
+        <tr>
+          <td>Строка4 Ячейка1</td>
+          <td>Строка4 Ячейка2</td>
+          <td>Строка4 Ячейка3</td>
+          <td>Строка4 Ячейка4</td>
+        </tr>
+      </table>
+    <hr style="height: 10px; background-color: #547901;">
+    <table>
+        <tr>
+          <td>Ячейка 1</td>
+          <td>Ячейка 2</td>
+          <td>Ячейка 3</td>
+          <td>Ячейка 4</td>
+        </tr>
+      </table>
+      <hr style="height: 10px; background-color: #547901;">
+    <table>
+        <caption>Тег thead в таблице</caption>
+        <thead>
+          <tr>
+            <th>Столбец 1</th>
+            <th>Столбец 2</th>
+            <th>Столбец 3</th>
+            <th>Столбец 4</th>
+          </tr>
+        </thead>
+        <tr>
+          <td colspan="3">Строка2 Ячейка1 (соединена с ячейками 2 и 3)</td>
+          <td rowspan="3">Строка2 Ячейка4 (соединена с ячейкой 4 в строках 3 и 4)</td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2">Строка3 Ячейка1 (соединена с ячейкой 2 строки 3 и ячейками 1 и 2 строки 4)</td>
+          <td>Строка3 Ячейка3</td>
+        </tr>
+        <tr>
+          <td>Строка4 Ячейка3</td>
+        </tr>
+      </table>
+      <hr style="height: 10px; background-color: #547901;">
+    <table>
+        <caption>Тег tfoot в таблице</caption>
+        <thead>
+          <tr>
+            <th>Столбец 1</th>
+            <th>Столбец 2</th>
+            <th>Столбец 3</th>
+            <th>Столбец 4</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Подвал столбец 1</td>
+            <td>Подвал столбец 2</td>
+            <td>Подвал столбец 3</td>
+            <td>Подвал столбец 4</td>
+          </tr>
+        </tfoot>
+        <tr>
+          <td colspan="3">Строка2 Ячейка1 (соединена с ячейками 2 и 3)</td>
+          <td rowspan="3">Строка2 Ячейка4 (соединена с ячейкой 4 в строках 3 и 4)</td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2">Строка3 Ячейка1 (соединена с ячейкой 2 строки 3 и ячейками 1 и 2 строки 4)</td>
+          <td>Строка3 Ячейка3</td>
+        </tr>
+        <tr>
+          <td>Строка4 Ячейка3</td>
+        </tr>
+      </table>
+      <hr style="height: 10px; background-color: #547901;">
+    <table>
+        <caption>Тег tbody в таблице</caption>
+        <thead>
+          <tr>
+            <th>Столбец 1</th>
+            <th>Столбец 2</th>
+            <th>Столбец 3</th>
+            <th>Столбец 4</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Подвал столбец 1</td>
+            <td>Подвал столбец 2</td>
+            <td>Подвал столбец 3</td>
+            <td>Подвал столбец 4</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td colspan="3">Строка2 Ячейка1 (соединена с ячейками 2 и 3)</td>
+            <td rowspan="3">Строка2 Ячейка4 (соединена с ячейкой 4 в строках 3 и 4)</td>
+          </tr>
+          <tr>
+            <td colspan="2" rowspan="2">Строка3 Ячейка1 (соединена с ячейкой 2 строки 3 и ячейками 1 и 2 строки 4)</td>
+            <td>Строка3 Ячейка3</td>
+          </tr>
+          <tr>
+            <td>Строка4 Ячейка3</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr style="height: 10px; background-color: #547901;">
+    <table>
+        <caption>Тег col в таблице</caption>
+        <col style="width: 100px;">
+        <col style="width: 100px;">
+        <col style="width: 150px;">
+        <col style="width: 200px;">
+        <thead>
+          <tr>
+            <th>Столбец 1</th>
+            <th>Столбец 2</th>
+            <th>Столбец 3</th>
+            <th>Столбец 4</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Подвал столбец 1</td>
+            <td>Подвал столбец 2</td>
+            <td>Подвал столбец 3</td>
+            <td>Подвал столбец 4</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td colspan="3">Строка2 Ячейка1 (соединена с ячейками 2 и 3)</td>
+            <td rowspan="3">Строка2 Ячейка4 (соединена с ячейкой 4 в строках 3 и 4)</td>
+          </tr>
+          <tr>
+            <td colspan="2" rowspan="2">Строка3 Ячейка1 (соединена с ячейкой 2 строки 3 и ячейками 1 и 2 строки 4)</td>
+            <td>Строка3 Ячейка3</td>
+          </tr>
+          <tr>
+            <td>Строка4 Ячейка3</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr style="height: 10px; background-color: #547901;">
+    <table>
+        <caption>Тег col в таблице</caption>
+        <col style="width: 100px;" span="2">
+        <col style="width: 150px;">
+        <col style="width: 200px;">
+        <thead>
+          <tr>
+            <th>Столбец 1</th>
+            <th>Столбец 2</th>
+            <th>Столбец 3</th>
+            <th>Столбец 4</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Подвал столбец 1</td>
+            <td>Подвал столбец 2</td>
+            <td>Подвал столбец 3</td>
+            <td>Подвал столбец 4</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td colspan="3">Строка2 Ячейка1 (соединена с ячейками 2 и 3)</td>
+            <td rowspan="3">Строка2 Ячейка4 (соединена с ячейкой 4 в строках 3 и 4)</td>
+          </tr>
+          <tr>
+            <td colspan="2" rowspan="2">Строка3 Ячейка1 (соединена с ячейкой 2 строки 3 и ячейками 1 и 2 строки 4)</td>
+            <td>Строка3 Ячейка3</td>
+          </tr>
+          <tr>
+            <td>Строка4 Ячейка3</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr style="height: 10px; background-color: #547901;">
+    <table>
+        <caption>Тег colgroup в таблице</caption>
+        <colgroup style="background: #fffdce;">
+          <col style="width: 100px;" span="2">
+          <col style="width: 150px;">
+        </colgroup>
+        <col style="width: 200px;">
+        <thead>
+          <tr>
+            <th>Столбец 1</th>
+            <th>Столбец 2</th>
+            <th>Столбец 3</th>
+            <th>Столбец 4</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Подвал столбец 1</td>
+            <td>Подвал столбец 2</td>
+            <td>Подвал столбец 3</td>
+            <td>Подвал столбец 4</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td colspan="3">Строка2 Ячейка1 (соединена с ячейками 2 и 3)</td>
+            <td rowspan="3">Строка2 Ячейка4 (соединена с ячейкой 4 в строках 3 и 4)</td>
+          </tr>
+          <tr>
+            <td colspan="2" rowspan="2">Строка3 Ячейка1 (соединена с ячейкой 2 строки 3 и ячейками 1 и 2 строки 4)</td>
+            <td>Строка3 Ячейка3</td>
+          </tr>
+          <tr>
+            <td>Строка4 Ячейка3</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr style="height: 10px; background-color: #547901;">
+    </body>
+</html>

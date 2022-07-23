@@ -1,0 +1,10 @@
+ table {
+    border: 2px solid rgb(14, 12, 1);
+    border-collapse: collapse; /*Убрать провал между заборами*/
+}
+tr, td {
+    border: 1px solid rgb(231, 43, 43);
+    padding: 10px 20px;
+    background-color: bisque;
+    color: black;
+}

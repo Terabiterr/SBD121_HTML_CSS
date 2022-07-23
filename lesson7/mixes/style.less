@@ -1,0 +1,24 @@
+.block {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    #blockArticleId {
+        color: rgb(253, 252, 252);
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+/*Mixin*/
+.block1 { .block; background-color: rgb(0, 255, 247); }
+.block2 { .block; background-color: red; }
+.block3 { .block; background-color: rgb(255, 238, 0); color: red }
+.block4 { .block; background-color: rgb(51, 255, 0); }
+.block5 { .block; background-color: rgb(255, 0, 132); }
+.block6 { .block; background-color: rgb(12, 27, 2); color: darkorange }
+.block7 { .block; background-color: rgb(43, 0, 255); }

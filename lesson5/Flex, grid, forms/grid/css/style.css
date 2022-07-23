@@ -1,0 +1,12 @@
+#grid { 
+    display: grid;
+    grid-template-rows: 1px 1px 1px;
+    grid-template-columns: 1px 1px 1px;
+    grid-gap: 2vw;
+    }
+  #grid > div {
+    font-size: 18px;
+    padding: 10px;
+    background: gold;
+    text-align: center;
+  }

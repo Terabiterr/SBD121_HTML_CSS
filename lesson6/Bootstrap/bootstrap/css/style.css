@@ -1,0 +1,21 @@
+#parentId {
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+#box1{
+    background-color: rgb(253, 228, 7);
+    height: 50px;
+
+}
+#box2 {
+    background-color: blue;
+    height: 50px;
+}
+#box3 {
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+}

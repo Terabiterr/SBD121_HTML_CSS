@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    border: solid black 1px;
+}
+.container div {
+    border: solid black 1px;
+}
+.container div.box1 {
+    flex: 1;
+}
+.container div.box2 {
+    flex: 3; /*Ширина блока*/
+}
+.container div.box3 {
+    flex: 1;
+}
+.container div.box4 {
+    flex: 2;
+}

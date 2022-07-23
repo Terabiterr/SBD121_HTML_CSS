@@ -1,0 +1,27 @@
+.container-fuild > div {
+    height: 75px;
+    color: white;
+    font-size: 27px;
+    color: brown;
+    margin-top: 10px;
+}
+#box1 {
+    margin-right: 5px;
+    background-color: cornflowerblue;
+}
+#box2 {
+    margin-right: 5px;
+    background-color: rgb(216, 237, 100);
+}
+#box3 {
+    margin-right: 5px;
+    background-color: rgb(237, 100, 230);
+}
+#box4 {
+    margin-right: 5px;
+    background-color: rgb(100, 237, 162);
+}
+#box5 {
+    margin-right: 5px;
+    background-color: rgb(237, 100, 118);
+}
